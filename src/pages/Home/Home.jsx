@@ -1,8 +1,6 @@
 import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
-
 import Typography from "@mui/material/Typography";
-
 import GlobalStyles from "@mui/material/GlobalStyles";
 import Container from "@mui/material/Container";
 import { HomeContainer, ButtonContainer } from "./style";
@@ -11,14 +9,21 @@ import Download from "../../components/Images/Download/Download";
 import Header from "../../components/Header/Header";
 
 function Home() {
+
+  const handleDownload = ()=>{
+    console.log('Starting download')
+  };
+
   return (
     <Container>
+
       {/* Global style component  for handling css resets */}
       <GlobalStyles
         styles={{ ul: { margin: 0, padding: 0, listStyle: "none" } }}
       />
       <CssBaseline />
       <Header />
+
       {/* Container for handling Home component elements */}
       <HomeContainer
         disableGutters
@@ -45,8 +50,9 @@ function Home() {
             </div>
             <Download color />
           </div>
+
           {/* Container for handlng button styles */}
-          <ButtonContainer variant="contained">Download</ButtonContainer>
+          <ButtonContainer variant="contained" onClick={handleDownload}>Download</ButtonContainer>
         </div>
         <div className="transfer__main">
           <Typography
