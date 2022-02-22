@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header matches the snapshot to check if the component renders correctly 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+>
+  <header
+    className="sc-bdvvtL fmlPYq"
+    elevation={0}
+  >
+    <div
+      className="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t018ql-MuiToolbar-root"
+    >
+      <h6
+        className="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-uh02xs-MuiTypography-root"
+      >
+        we
+      </h6>
+      <nav>
+        <ul>
+          <li>
+            <a
+              className="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineAlways css-1xkhg5k-MuiTypography-root-MuiLink-root"
+              href="#"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Help
+            </a>
+          </li>
+          <li>
+            <a
+              className="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineAlways css-1xkhg5k-MuiTypography-root-MuiLink-root"
+              href="#"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Company
+            </a>
+          </li>
+          <li>
+            <a
+              className="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineAlways css-1xkhg5k-MuiTypography-root-MuiLink-root"
+              href="#"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Pricing
+            </a>
+             
+          </li>
+          <li>
+            <a
+              className="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineAlways css-1xkhg5k-MuiTypography-root-MuiLink-root"
+              href="#"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Sign up
+            </a>
+             
+          </li>
+          <li>
+            <a
+              className="MuiTypography-root MuiTypography-button MuiLink-root MuiLink-underlineAlways css-1xkhg5k-MuiTypography-root-MuiLink-root"
+              href="#"
+              onBlur={[Function]}
+              onFocus={[Function]}
+            >
+              Log in
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+`;
